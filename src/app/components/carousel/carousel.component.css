@@ -1,0 +1,17 @@
+
+.container__carousel{
+    margin: auto;
+    margin-bottom: 25px;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    width: 96%;
+}
+
+.container__carousel > img {
+    border-radius: 10px;
+    height: 800px;
+    width: 100%;
+}

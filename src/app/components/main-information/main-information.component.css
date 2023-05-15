@@ -1,0 +1,45 @@
+*{
+    background-color: #ffffff;
+}
+
+.container__main-information{
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    height: 270px;
+}
+
+.container__main-information > h1{
+    color: #161E43;
+    font-size: 60px;
+    width: 55%;
+    height: 90%;
+    margin: 25px 0px 27px 25px;
+}
+
+.information-list{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.information-list > p{
+    color: #999CA3;
+    font-weight: bolder;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 45px 0px 18px 22px;
+}
+
+.information-list > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.information-list > ul > li{
+    color: #161E43;
+    font-size: 20px;
+    font-weight: bolder;
+} 
