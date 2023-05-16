@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input} from '@angular/core';
 
 @Component({
   selector: 'app-value-card',
@@ -6,9 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./value-card.component.css']
 })
 export class ValueCardComponent {
-  value:object = {
-    title:"Educação infantil",
-    Description:"Para alunos da educação infantil e fundamental I",
-    prices:105,
-  } 
+  
+  @Input()
+  title:string = ''
+  @Input()
+  description: string = ''
+  @Input()
+  prices:number = 0
+
+
 }
