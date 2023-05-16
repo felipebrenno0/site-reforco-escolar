@@ -1,17 +1,18 @@
 *{
     background-color: #ffffff;
+    padding: 0;
 }
 
 .container__main-information{
     display: flex;
     flex-direction: row;
     background-color: #ffffff;
-    height: 270px;
+    height: 230px;
 }
 
 .container__main-information > h1{
     color: #161E43;
-    font-size: 60px;
+    font-size: 55px;
     width: 55%;
     height: 90%;
     margin: 25px 0px 27px 25px;
@@ -31,15 +32,23 @@
     margin: 45px 0px 18px 22px;
 }
 
-.information-list > ul{
+.container-topic{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    padding: 10px;
+    margin-left: 20px;
+    justify-content: center;
 }
 
-.information-list > ul > li{
+.container-topic-child{
+    margin: 10px;
+
+}
+
+
+
+.container-topic-child > ul > li{
     color: #161E43;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bolder;
+    margin-left: 10px;
 } 
