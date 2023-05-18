@@ -14,10 +14,6 @@ const routes: Routes = [
     component:LocationComponent
   },
   {
-    path: 'utilities',
-    component:UtilitiesComponent
-  },
-  {
     path:'**',
     redirectTo:''
   }

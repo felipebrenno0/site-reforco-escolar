@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./main-card.component.css']
 })
 export class MainCardComponent {
-
+ 
 }
