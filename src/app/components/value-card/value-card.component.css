@@ -27,16 +27,23 @@
     height: 220px;
 }
 
+.card-title > h3{
+    margin-top: 25px;
+    color: #999CA3;
+}
+
 .card-title > h1{
     color: #161E43;
-    margin-top: 25px;
+    
 }
 
 .card-title > p{
     font-size: 13px;
     color: #999CA3;
     font-weight: bolder;
-    word-break: break-all;
+    word-break: normal;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .card-values{
@@ -53,6 +60,7 @@
 .card-values > p{
     color: #161E43;
     font-size: 25px;
+    
 }
 
 .card-info > p{

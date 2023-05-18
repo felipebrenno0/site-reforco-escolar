@@ -1,4 +1,6 @@
-
+*{
+    margin: 0;
+}
 .container__menu-bar{
     background-color: #309CC7;
 }
@@ -17,8 +19,9 @@
 
 .container__menu-bar > ul > li > a{
     text-decoration: none;
+    color: white;
 }
 
 .container__menu-bar > ul > li > a:hover{
-    color: #fffdfd;
+    color: #e9e5e5;
 } 

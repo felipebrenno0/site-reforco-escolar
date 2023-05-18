@@ -7,6 +7,7 @@
     
     height: 365px;
     background-color: #309CC7;
+    margin-bottom: 25px;
 }
 
 .main-card{
@@ -36,6 +37,11 @@
     font-size: 14px;
     font-weight: bolder;
 
+}
+
+.main-card > button > a{
+    text-decoration: none;
+    color: white;
 }
 
 .main-card > button:active{

@@ -3,25 +3,29 @@
     padding: 0;
 }
 
-.container__main-information{
+.container__main{
     display: flex;
     flex-direction: row;
     background-color: #ffffff;
     height: 230px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.container__main-information{
+    width: 58%;
 }
 
 .container__main-information > h1{
     color: #161E43;
     font-size: 55px;
-    width: 55%;
-    height: 90%;
-    margin: 25px 0px 27px 25px;
 }
 
 .information-list{
     display: flex;
+    align-items: center;
     flex-direction: column;
-    width: 40%;
+    width: 42%;
 }
 
 .information-list > p{
@@ -29,7 +33,7 @@
     font-weight: bolder;
     font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 45px 0px 18px 22px;
+    margin: 15px 0px 18px 22px;
 }
 
 .container-topic{

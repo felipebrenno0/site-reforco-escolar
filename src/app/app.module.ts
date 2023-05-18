@@ -1,5 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
+
+
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -17,6 +20,8 @@ import { CarouselComponent } from './components/carousel/carousel.component';
 import { ValueCardComponent } from './components/value-card/value-card.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { MapsComponent } from './components/maps/maps.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CardLocationComponent } from './components/card-location/card-location.component';
 
 
 @NgModule({
@@ -32,11 +37,14 @@ import { MapsComponent } from './components/maps/maps.component';
     LocationComponent,
     ValueCardComponent,
     FooterComponent,
-    MapsComponent
+    MapsComponent,
+    CardLocationComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    CarouselModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

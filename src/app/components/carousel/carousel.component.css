@@ -1,17 +1,17 @@
-*{
-    color: black;
-}
 
-.container__carousel{
+
+.container-carousel {
     margin: auto;
     margin-bottom: 25px;
 
     display: flex;
     justify-content: center;
-    width: 96%;
 }
 
-.container__carousel > img {
+.container-img {
     border-radius: 10px;
-    width: 900px;
+}
+
+.carousel-caption > h3{
+    margin-top: 25px;
 }
