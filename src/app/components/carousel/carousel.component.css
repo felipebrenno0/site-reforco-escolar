@@ -2,16 +2,8 @@
 
 .container-carousel {
     margin: auto;
-    margin-bottom: 25px;
+    width: 97%;
 
     display: flex;
     justify-content: center;
-}
-
-.container-img {
-    border-radius: 10px;
-}
-
-.carousel-caption > h3{
-    margin-top: 25px;
 }

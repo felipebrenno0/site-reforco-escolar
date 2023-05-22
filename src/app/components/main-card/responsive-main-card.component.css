@@ -2,11 +2,21 @@
     .main-card > h1{
         font-size: 2.8rem;
     }
+
+    .main-card > p{
+        width: 70%;
+    }
+}
+
+@media (max-width: 768px){
+    .main-card > p{
+        width: 90%;
+    }
 }
 
 @media (max-width: 576px) {
     .container__main-card{
-        height: 11rem;
+        height: 13rem;
     }
 
     .main-card{
@@ -19,7 +29,7 @@
     }
 
     .main-card > h1{
-        font-size: 2.0rem;
+        font-size: 2rem;
         margin-bottom: 0.5rem;
     }
 
@@ -27,5 +37,11 @@
         font-size: 0.8rem;
         margin-bottom: 0.5rem;
         width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .main-card > h1{
+        font-size: 1.7rem;
     }
 }
