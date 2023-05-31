@@ -17,9 +17,9 @@ import { MainCardComponent } from './components/main-card/main-card.component';
 import { MainInformationComponent } from './components/main-information/main-information.component';
 import { ValuesComponent } from './components/values/values.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
-import { ValueCardComponent } from './components/value-card/value-card.component';
+import { ValueCardComponent } from './components/values/value-card/value-card.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { MapsComponent } from './components/maps/maps.component';
+import { MapsComponent } from './components/card-location/maps/maps.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CardLocationComponent } from './components/card-location/card-location.component';
 

@@ -5,6 +5,7 @@
     justify-content: space-between;
     background-color: #7a48f5;
     height: 170px;
+    width: 100%;
 }
 
 .container-title{
@@ -13,12 +14,20 @@
     margin-left: 25px;
 }
 
+.container-title > h1{
+    font-size: 20px;
+}
+
+.container-title > p{
+    font-size: 13px;
+}
+
 .container-info > ul{
     display: flex;
     flex-direction: row;
-    margin-right: 20px;
 
     list-style: none;
+    padding: 0;
 }
 
 .container-info ul > li{
@@ -36,8 +45,30 @@
 }
 
 .container-social > a{
-    font-size: 30px;
+    font-size: 25px;
     text-decoration: none;
     margin-right: 10px;
     color: white;
+}
+
+@media (max-width: 680px){
+    .container-title{
+        margin-left: 15px;
+    }
+    
+    .container-title > h1{
+        font-size: 15px;
+    }
+    
+    .container-title > p{
+        font-size: 10px;
+    }
+    
+    .container-info ul > li> a{
+        font-size: 14px;
+    }
+
+    .container-social{
+        margin-right: 15px;
+    }
 }
