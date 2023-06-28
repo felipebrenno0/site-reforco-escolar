@@ -20,10 +20,6 @@
     }
 
     .main-card{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
         margin: 1rem;
         margin-top: 0;
     }
@@ -33,7 +29,7 @@
         margin-bottom: 0.5rem;
     }
 
-    .main-card > p{
+    .main-card > ul > li{
         font-size: 0.8rem;
         margin-bottom: 0.5rem;
         width: 100%;

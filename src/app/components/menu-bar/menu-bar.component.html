@@ -1,11 +1,18 @@
-
-<div class="container__menu-bar">
-    <ul>
-        <li><a [routerLink]="['/']">Inicio</a></li>
-        <li><a href="#location">Localização</a></li>
-        <li><a [routerLink]="['/utilities']">Utilidades</a></li>
-        <li><a href="https://contate.me/reforcopequenogenio">Contato</a></li>
+<div class="body">
+    <nav class="container__menu-bar">
+    <div class="mobile-menu" (click)="openMenu()">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+    </div>
+    <ul class="nav-list" [class.menuClass]="menuVariable" >
+        <li (click)="openMenu()"><a [routerLink]="['/']">Inicio</a></li>
+        <li (click)="openMenu()"><a href="#location">Localização</a></li>
+        <li (click)="openMenu()"><a [routerLink]="['/utilities']">Utilidades</a></li>
+        <li (click)="openMenu()"><a href="https://contate.me/reforcopequenogenio">Contato</a></li>
     </ul>
+    </nav>
 </div>
+
 
 

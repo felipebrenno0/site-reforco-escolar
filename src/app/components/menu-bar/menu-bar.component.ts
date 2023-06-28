@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { NgClass } from '@angular/common';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-menu-bar',
@@ -6,5 +7,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./menu-bar.component.css']
 })
 export class MenuBarComponent {
+
+  menuVariable:boolean = false
+
+ 
+  openMenu(){
+    this.menuVariable = !this.menuVariable
+  }
 
 }
