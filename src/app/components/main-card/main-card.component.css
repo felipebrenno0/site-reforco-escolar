@@ -18,10 +18,15 @@
     margin-bottom: 1.25rem;
 }
 
-.main-card > p{
+.main-card > ul{
+    padding: 0;
+    margin-bottom: 1.5rem;
+}
+
+.main-card > ul > li{
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 1.25rem;
-    width: 60%;
+    list-style: none;
+    margin-bottom: 0.5rem;
 }
 
 .main-card > a > button{
