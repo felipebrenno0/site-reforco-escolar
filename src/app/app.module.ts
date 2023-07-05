@@ -21,6 +21,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { MapsComponent } from './components/card-location/maps/maps.component';
 import { CardLocationComponent } from './components/card-location/card-location.component';
 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 @NgModule({
   declarations: [
@@ -40,7 +42,8 @@ import { CardLocationComponent } from './components/card-location/card-location.
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [ provideClientHydration() ],
   bootstrap: [AppComponent]

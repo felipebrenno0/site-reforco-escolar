@@ -1,18 +1,16 @@
 <div class="body">
     <nav class="container__menu-bar">
-    <div class="mobile-menu" (click)="openMenu()">
+    <div class="mobile-menu" (click)="toggleMenu()" (click)="animationMenu()">
         <div class="line1"></div>
         <div class="line2"></div>
         <div class="line3"></div>
     </div>
-    <ul class="nav-list" [class.menuClass]="menuVariable" >
-        <li (click)="openMenu()"><a [routerLink]="['/']">Inicio</a></li>
-        <li (click)="openMenu()"><a href="#location">Localização</a></li>
-        <li (click)="openMenu()"><a [routerLink]="['/utilities']">Utilidades</a></li>
-        <li (click)="openMenu()"><a href="https://contate.me/reforcopequenogenio">Contato</a></li>
+    
+    <ul class="nav-list" [class.menuClass]="menuVariable" [@fadeNav]="menuState">
+        <li (click)="toggleMenu()"><a [routerLink]="['/']">Inicio</a></li>
+        <li (click)="toggleMenu()"><a href="#location">Localização</a></li>
+        <li (click)="toggleMenu()"><a [routerLink]="['/utilities']">Utilidades</a></li>
+        <li (click)="toggleMenu()"><a href="https://contate.me/reforcopequenogenio">Contato</a></li>
     </ul>
     </nav>
 </div>
-
-
-
