@@ -1,31 +1,17 @@
 .container__footer{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #7a48f5;
-    height: 170px;
-    width: 100%;
-}
-
-.container-title{
-    display: flex;
     flex-direction: column;
-    margin-left: 25px;
-}
-
-.container-title > h1{
-    font-size: 20px;
-}
-
-.container-title > p{
-    font-size: 13px;
+    align-items: center;
+    justify-content: center;
+    background-color: #7a48f5;
+    height: 150px;
+    width: 100%;
 }
 
 .container-info > ul{
     display: flex;
     flex-direction: row;
-
+    margin-bottom: 10px;
     list-style: none;
     padding: 0;
 }
@@ -63,11 +49,11 @@
     .container-title > p{
         font-size: 10px;
     }
-    
-    .container-info ul > li> a{
-        font-size: 14px;
-    }
 
+    .container-info ul > li{
+        margin: 5px 15px;
+    }
+    
     .container-social{
         margin-right: 15px;
     }
