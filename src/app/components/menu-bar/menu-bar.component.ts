@@ -11,7 +11,7 @@ import { trigger, state, style, animate, transition, keyframes, useAnimation, an
       state('open', style({ opacity: 1, })),
       state('closed', style({ opacity: 0 })),
       transition('closed <=> open', [
-        animate('900ms', keyframes([
+        animate('600ms', keyframes([
           style({ opacity: 0, transform: 'translateX(70%)', offset: 0 }),
           style({ opacity: 1, transform: 'translateX(0)', offset: 1 }),
         ]))
