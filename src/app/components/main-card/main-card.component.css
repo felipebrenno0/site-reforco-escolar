@@ -1,9 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 
 .container__main-card{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    
+    width: 100vw;
     height: 18rem;
     background-color: #309CC7;
     margin-bottom: 1.5rem;
