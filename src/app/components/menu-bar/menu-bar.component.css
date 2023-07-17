@@ -85,6 +85,8 @@
 
     .container__menu-bar{
         justify-content: flex-end;
+        position: fixed;
+        z-index: 9999;
     }
     
     .nav-list{
