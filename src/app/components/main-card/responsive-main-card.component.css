@@ -8,7 +8,10 @@
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 999px){
+    .container__main-card{
+        margin-top: 25px;
+    }
     .main-card > p{
         width: 90%;
     }
