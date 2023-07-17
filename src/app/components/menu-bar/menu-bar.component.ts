@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { trigger, state, style, animate, transition, keyframes, useAnimation, animateChild } from '@angular/animations'
+import { Component, Input } from '@angular/core';
 
 
 @Component({
@@ -24,6 +23,10 @@ export class MenuBarComponent {
 
   closeMenu(){
     this.menuVariable = false
-  }
+    this.menuVisible = true
+  } 
+
+  @Input()
+  fragment?:string
 
 }
