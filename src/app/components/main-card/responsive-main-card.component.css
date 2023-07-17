@@ -10,21 +10,23 @@
 
 @media (max-width: 999px){
     .container__main-card{
-        margin-top: 25px;
+        height: 16rem;
     }
+
+    .main-card > h1{
+        margin-top: 2rem;
+    }
+    
     .main-card > p{
         width: 90%;
+        margin-top: 1rem;
     }
 }
 
 @media (max-width: 576px) {
-    .container__main-card{
-        height: 13rem;
-    }
 
     .main-card{
         margin: 1rem;
-        margin-top: 0;
     }
 
     .main-card > h1{
