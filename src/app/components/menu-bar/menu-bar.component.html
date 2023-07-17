@@ -1,12 +1,19 @@
-<div class="body">
+<div>
     <nav class="container__menu-bar">
-    <div class="mobile-menu" (click)="toggleMenu()" (click)="animationMenu()">
+    <div class="mobile-menu" (click)="toggleMenu()"  *ngIf="menuVariableClose">
         <div class="line1"></div>
         <div class="line2"></div>
         <div class="line3"></div>
     </div>
-    
-    <ul class="nav-list" [class.menuClass]="menuVariable" [@fadeNav]="menuState">
+
+    <div class="mobile-nav-overly" *ngIf="menuVariable">
+        <div class="mobile-menu-close" (click)="toggleMenu()" >
+            <div class="close" *ngIf="menuVariable"></div>
+            <div class="close" *ngIf="menuVariable"></div>
+        </div>
+    </div>
+
+    <ul class="nav-list" [class.menuClass]="menuVariable" >
         <li (click)="toggleMenu()"><a [routerLink]="['/']">Inicio</a></li>
         <li (click)="toggleMenu()"><a href="#location">Localização</a></li>
         <li (click)="toggleMenu()"><a [routerLink]="['/utilities']">Utilidades</a></li>
