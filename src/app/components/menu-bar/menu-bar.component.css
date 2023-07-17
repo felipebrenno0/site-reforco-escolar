@@ -88,6 +88,10 @@
         position: fixed;
         z-index: 9999;
     }
+
+    .transparentClass{
+        background-color: transparent;
+    }
     
     .nav-list{
         position: fixed;
