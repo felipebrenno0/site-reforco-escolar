@@ -1,5 +1,5 @@
 <div>
-    <nav class="container__menu-bar">
+    <nav class="container__menu-bar" [class.transparentClass]="menuVariable">
     <div class="mobile-menu" (click)="toggleMenu()"  *ngIf="menuVariableClose">
         <div class="line1"></div>
         <div class="line2"></div>
