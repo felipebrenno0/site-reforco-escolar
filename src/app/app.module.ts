@@ -22,6 +22,7 @@ import { MapsComponent } from './components/card-location/maps/maps.component';
 import { CardLocationComponent } from './components/card-location/card-location.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AboutComponent } from './pages/about/about.component';
 
 
 @NgModule({
@@ -38,7 +39,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ValueCardComponent,
     FooterComponent,
     MapsComponent,
-    CardLocationComponent
+    CardLocationComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
