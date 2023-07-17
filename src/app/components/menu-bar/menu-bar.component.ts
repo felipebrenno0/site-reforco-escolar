@@ -15,15 +15,15 @@ export class MenuBarComponent {
 
   menuState: 'open' | 'closed' = 'closed';
   menuVariable:boolean = false
-  menuVariableClose:boolean = true
+  menuVisible:boolean = true
 
   toggleMenu(){
     this.menuVariable = !this.menuVariable
-    this.menuVariableClose = !this.menuVariableClose
+    this.menuVisible = !this.menuVisible
   }
 
-  animationMenu(){
-    this.menuState = this.menuState === 'open' ? 'closed' : 'open';
+  closeMenu(){
+    this.menuVariable = false
   }
 
 }
