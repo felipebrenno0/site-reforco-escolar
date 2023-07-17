@@ -38,6 +38,10 @@
 }
 
 @media (max-width: 680px){
+    .container__footer{
+        height: 100px;
+    }
+
     .container-title{
         margin-left: 15px;
     }
