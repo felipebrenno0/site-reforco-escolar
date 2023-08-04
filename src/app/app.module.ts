@@ -8,7 +8,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { HomeComponent } from './pages/home/home.component';
-import { LocationComponent } from './pages/location/location.component';
 import { UtilitiesComponent } from './pages/utilities/utilities.component';
 
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
@@ -35,7 +34,6 @@ import { AboutComponent } from './pages/about/about.component';
     ValuesComponent,
     UtilitiesComponent,
     CarouselComponent,
-    LocationComponent,
     ValueCardComponent,
     FooterComponent,
     MapsComponent,
