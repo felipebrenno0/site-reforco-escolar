@@ -22,6 +22,7 @@ import { CardLocationComponent } from './components/card-location/card-location.
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AboutComponent } from './pages/about/about.component';
+import { CardAboutComponent } from './components/card-about/card-about.component';
 
 
 @NgModule({
