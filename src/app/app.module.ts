@@ -14,7 +14,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { MapsComponent } from './components/card-location/maps/maps.component';
 import { CardLocationComponent } from './components/card-location/card-location.component';
 import { AboutComponent } from './pages/about/about.component';
-
+import { CardAboutComponent } from './components/card-about/card-about.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +30,8 @@ import { AboutComponent } from './pages/about/about.component';
     FooterComponent,
     MapsComponent,
     CardLocationComponent,
-    AboutComponent
+    AboutComponent,
+    CardAboutComponent
   ],
   imports: [
     BrowserModule,
