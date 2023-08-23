@@ -15,6 +15,7 @@ import { MapsComponent } from './components/card-location/maps/maps.component';
 import { CardLocationComponent } from './components/card-location/card-location.component';
 import { AboutComponent } from './pages/about/about.component';
 import { CardAboutComponent } from './components/card-about/card-about.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { CardAboutComponent } from './components/card-about/card-about.component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
