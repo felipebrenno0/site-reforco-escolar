@@ -81,7 +81,7 @@
     transform: rotate(-45deg) translate(0px, -8px);
   }
 
-@media (max-width: 999px){
+@media (max-width: 740px){
 
     .container__menu-bar{
         justify-content: flex-end;

@@ -16,7 +16,7 @@
 }
 
 .container__main-information > h1{
-    color: #161E43;
+    color: #0A203B;
     font-size: 4rem;
 }
 
@@ -48,7 +48,7 @@
 }
 
 .container-topic-child > ul > li{
-    color: #161E43;
+    color: #0A203B;
     font-size: 1.2rem;
     font-weight: bolder;
     margin-right: 0.8rem;
