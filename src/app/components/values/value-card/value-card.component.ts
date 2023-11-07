@@ -13,6 +13,7 @@ export class ValueCardComponent {
   description: string = ''
   @Input()
   prices:number = 0
-
+  @Input()
+  message:string = ''
 
 }
