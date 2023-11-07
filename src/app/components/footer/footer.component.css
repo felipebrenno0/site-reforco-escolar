@@ -1,14 +1,14 @@
-.container__footer{
+.container-main{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #124A65;
+    background-color: #161E43;
     height: 150px;
     width: 100%;
 }
 
-.container-info > ul{
+ul{
     display: flex;
     flex-direction: row;
     margin-bottom: 10px;
@@ -16,7 +16,7 @@
     padding: 0;
 }
 
-.container-info ul > li{
+li{
     margin: 10px;
 }
 
@@ -38,7 +38,7 @@
 }
 
 @media (max-width: 680px){
-    .container__footer{
+    .container-main{
         height: 100px;
     }
 

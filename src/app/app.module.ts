@@ -13,8 +13,6 @@ import { ValueCardComponent } from './components/values/value-card/value-card.co
 import { FooterComponent } from './components/footer/footer.component';
 import { MapsComponent } from './components/card-location/maps/maps.component';
 import { CardLocationComponent } from './components/card-location/card-location.component';
-import { AboutComponent } from './pages/about/about.component';
-import { CardAboutComponent } from './components/card-about/card-about.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 
@@ -31,9 +29,7 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
     ValueCardComponent,
     FooterComponent,
     MapsComponent,
-    CardLocationComponent,
-    AboutComponent,
-    CardAboutComponent
+    CardLocationComponent
   ],
   imports: [
     BrowserModule,
