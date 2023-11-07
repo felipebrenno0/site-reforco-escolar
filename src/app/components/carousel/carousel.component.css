@@ -2,17 +2,13 @@
 .carousel-container {
     margin: auto;
     
-    width: 65%;
+    width: 64%;
 
     display: flex;
     justify-content: center;
 }
 
-img{
-    width: 100%;
-}
-
-@media (max-width: 999px){
+@media (max-width: 740px){
     .carousel-container{
         width: 96%;
         margin-bottom: 80px;
